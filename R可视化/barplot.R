@@ -1,0 +1,5 @@
+X<-c(0,1,2,3)
+Prob<-c(0.208,0.167,0.25,0.375)
+N<-c ('A', 'C', 'G', 'U')
+barplot (Prob, names=N, ylab="Probability", main="RNA Residue Analysis", sub="Bases", col= c("red","blue","yellow","green"))
+box()
